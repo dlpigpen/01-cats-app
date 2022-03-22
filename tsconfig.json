@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "declaration": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2018",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "resolveJsonModule": true,
+
+    "strict": true,
+    "esModuleInterop":   true,
+    "moduleResolution": "node",
+    "types": [
+      "node",
+    ],
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test",
+    "examples"
+  ]
+}
